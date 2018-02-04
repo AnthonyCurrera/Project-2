@@ -28,6 +28,9 @@ nav {
   padding-left: 20px;
   padding-right: 20px;
   color: white;
+  /*width: 200px;
+  border-radius: 10px;
+  padding: 10px 40px;*/
 }
 
 main, footer {
@@ -64,14 +67,18 @@ footer {
 }
 
 .nav a {
-  padding: 10px;
+  /*padding: 10px;*/
   background-color: #fff;
   border: 2px solid transparent;
   text-decoration: none;
- /* color: white;*/
+  color: black;
   display: block;
-  width: 100%;
+  /*width: 100%;*/
   transition: .5s ease;
+  width: 199px;
+  border-radius: 10px;
+  padding: 10px 40px;
+  margin-left: 20%;
 }
 
 .nav a:hover {
@@ -81,6 +88,9 @@ footer {
 }
 
 /* Introduction styles */
+.profile-image {
+  border-radius: 10px;
+}
 
 .intro {
   padding-top: 50px;
@@ -92,6 +102,7 @@ footer {
 
 .intro p {
   font-size: 20px;
+  border-radius: 10px;
 }
 
 /* Portfolio styles */
@@ -146,7 +157,8 @@ main h2 {
 
 .foot-btt a {
   text-decoration: none;
-  color: #000;
+  /*color: #000;*/
+  color: #4A96AD
 }
 
 .foot-nav {
@@ -155,6 +167,14 @@ main h2 {
 
 .foot-nav li a {
     color: white;
+}
+
+.telephone {
+  color: black;
+}
+
+.mail {
+  color: black;
 }
 
 /* Skills styles */
@@ -254,8 +274,26 @@ main h2 {
   .nav {
     float: right;
   }
+  .nav a {
+    color: white;
+    border: none;
+   /* color: none;*/
+  }
+  .nav a:hover {
+    border: none;
+    background: none;
+    transition: .5s ease;
+  }
   .nav li {
     float: left;
+    /*border: none;
+    color: none;*/
+  }
+  /* Top right clickable text */
+  ul li a:hover, ul li a:focus {
+    color: #4A96AD;
+    transition: all .5s;
+    list-style: none;
   }
   .name {
     display: inline-block;
